@@ -1,0 +1,59 @@
+!!burlap.behavior.singleagent.EpisodeAnalysis
+actionSequence: [!action 'B', !action 'L2', !action 'F2', !action 'R2']
+rewardSequence: [-13.25, -13.0, -12.0, -14.0]
+stateSequence:
+- !!burlap.oomdp.stateserialization.simple.SimpleSerializableState
+  objects:
+  - name: cube0
+    object_class: cube
+    values:
+    - {attribute: TOP, value: '3,3,3,5,0,5,5,5,0'}
+    - {attribute: LEFT, value: '5,1,1,5,1,1,0,1,1'}
+    - {attribute: FRONT, value: '4,2,2,4,2,2,4,2,2'}
+    - {attribute: RIGHT, value: '1,3,0,1,3,0,1,3,5'}
+    - {attribute: BACK, value: '4,4,4,4,4,4,2,2,2'}
+    - {attribute: DOWN, value: '0,0,5,0,5,0,3,3,3'}
+- !!burlap.oomdp.stateserialization.simple.SimpleSerializableState
+  objects:
+  - name: cube0
+    object_class: cube
+    values:
+    - {attribute: TOP, value: '0,0,5,5,0,5,5,5,0'}
+    - {attribute: LEFT, value: '3,1,1,3,1,1,3,1,1'}
+    - {attribute: FRONT, value: '4,2,2,4,2,2,4,2,2'}
+    - {attribute: RIGHT, value: '1,3,3,1,3,3,1,3,3'}
+    - {attribute: BACK, value: '2,4,4,2,4,4,2,4,4'}
+    - {attribute: DOWN, value: '0,0,5,0,5,0,5,5,0'}
+- !!burlap.oomdp.stateserialization.simple.SimpleSerializableState
+  objects:
+  - name: cube0
+    object_class: cube
+    values:
+    - {attribute: TOP, value: '0,0,5,0,0,5,5,5,0'}
+    - {attribute: LEFT, value: '1,1,3,1,1,3,1,1,3'}
+    - {attribute: FRONT, value: '4,2,2,4,2,2,4,2,2'}
+    - {attribute: RIGHT, value: '1,3,3,1,3,3,1,3,3'}
+    - {attribute: BACK, value: '2,4,4,2,4,4,2,4,4'}
+    - {attribute: DOWN, value: '0,0,5,5,5,0,5,5,0'}
+- !!burlap.oomdp.stateserialization.simple.SimpleSerializableState
+  objects:
+  - name: cube0
+    object_class: cube
+    values:
+    - {attribute: TOP, value: '0,0,5,0,0,5,0,0,5'}
+    - {attribute: LEFT, value: '1,1,1,1,1,1,1,1,1'}
+    - {attribute: FRONT, value: '2,2,4,2,2,4,2,2,4'}
+    - {attribute: RIGHT, value: '3,3,3,3,3,3,3,3,3'}
+    - {attribute: BACK, value: '2,4,4,2,4,4,2,4,4'}
+    - {attribute: DOWN, value: '5,5,0,5,5,0,5,5,0'}
+- !!burlap.oomdp.stateserialization.simple.SimpleSerializableState
+  objects:
+  - name: cube0
+    object_class: cube
+    values:
+    - {attribute: TOP, value: '0,0,0,0,0,0,0,0,0'}
+    - {attribute: LEFT, value: '1,1,1,1,1,1,1,1,1'}
+    - {attribute: FRONT, value: '2,2,2,2,2,2,2,2,2'}
+    - {attribute: RIGHT, value: '3,3,3,3,3,3,3,3,3'}
+    - {attribute: BACK, value: '4,4,4,4,4,4,4,4,4'}
+    - {attribute: DOWN, value: '5,5,5,5,5,5,5,5,5'}
